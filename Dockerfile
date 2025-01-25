@@ -10,6 +10,8 @@ RUN apt-get update && apt-get install -y \
     python3-pip \
     git
 
+EXPOSE 10000
+
 # Clone the repository
 RUN git clone https://github.com/aladdin-pvt/instainsane.git /instainsane
 
